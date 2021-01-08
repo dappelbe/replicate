@@ -5,8 +5,9 @@ in human-readable form, that can be used when undertaking validation.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![REPLICATE Automated Tests](https://github.com/dappelbe/replicate/workflows/tests.yml/badge.svg)]
+
 
 ## 1. Requirements
 * PHP 7.1 and above
