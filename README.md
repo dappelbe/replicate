@@ -28,7 +28,7 @@ into the directory where you are developing your code.
 ```shell
 git clone https://github.com/dappelbe/replicate
 ```
-
+You will then need to download the package mossadal/math-parser
 ## 3. Validation
 Before using this library you **should** run the included unit tests to confirm that everything has been 
 installed ok.
