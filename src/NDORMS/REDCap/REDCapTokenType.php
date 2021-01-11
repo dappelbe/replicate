@@ -17,6 +17,8 @@ final class REDCapTokenType
     const OpenParenthesis = 31;
     /** Token representing a closing parenthesis, i.e. ')' */
     const CloseParenthesis = 32;
+    /** Token representing a closing parenthesis, i.e. ')' */
+    const CommaSeperator = 33;
     /** Token representing a unary minus. Not used. This is the responsibility of the Parser */
     const UnaryMinus = 99;
     /** Token representing '+' */
@@ -44,4 +46,10 @@ final class REDCapTokenType
     const FunctionName = 200;
     /** Token represented a known constant, e.g. 'today */
     const Constant = 300;
+
+    /** Token representing white space, e.g. spaces and tabs. */
+    const Whitespace = 999;
+
+    /** Token representing a senitinel, for internal used in the Parser. Not used. */
+    const Sentinel = 1000;
 }
