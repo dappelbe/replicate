@@ -1,7 +1,10 @@
 {
     "name": "dappelbe/replicate",
     "description": "Code to parse REDCap Logic expressions, either calculations or logic, and generate an Abstract Syntax Tree (AST). This AST can then be pushed into a parser that will generate a series of tests, in human-readable form, that can be used when undertaking validation.",
-    "keywords": ["parser", "redcap" ],
+    "keywords": [
+        "parser",
+        "redcap"
+    ],
     "homepage": "https://github.com/dappelbe/replicate",
     "license": "MIT",
     "authors": [
@@ -11,14 +14,14 @@
             "role": "Developer"
         }
     ],
-
     "require-dev": {
         "phpunit/phpunit": "^8.5",
         "phpunit/php-code-coverage": "^7.0"
     },
-
     "autoload": {
-        "psr-4": {"NDORMS\\REDCap\\": "src/NDORMS/REDCap"}
+        "psr-4": {
+            "NDORMS\\REDCap\\": "src/NDORMS/REDCap"
+        }
     },
     "require": {
         "mossadal/math-parser": "^1.3"

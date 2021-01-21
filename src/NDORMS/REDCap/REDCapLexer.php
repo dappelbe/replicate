@@ -36,6 +36,7 @@ class REDCapLexer extends Lexer
         $this->add(new TokenDefinition('/sum/', REDCapTokenType::FunctionName));
         $this->add(new TokenDefinition('/mean/', REDCapTokenType::FunctionName));
         $this->add(new TokenDefinition('/median/', REDCapTokenType::FunctionName));
+        $this->add(new TokenDefinition('/if\(/', REDCapTokenType::FunctionName));
 
         $this->add(new TokenDefinition('/\(/', REDCapTokenType::OpenParenthesis));
         $this->add(new TokenDefinition('/\)/', REDCapTokenType::CloseParenthesis));

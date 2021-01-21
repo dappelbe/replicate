@@ -37,6 +37,12 @@ installed ok.
 
 ## 4. Usage Example
 
+```php
+ use \NDORMS\REDCap\REDCapLexer;
+
+ $lexer = new REDCapLexer();
+```
+
 ## 5. How to contribute
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
 
